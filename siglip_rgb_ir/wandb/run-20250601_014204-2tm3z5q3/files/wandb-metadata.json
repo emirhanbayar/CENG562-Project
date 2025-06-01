@@ -1,0 +1,55 @@
+{
+  "os": "Linux-6.11.0-26-generic-x86_64-with-glibc2.39",
+  "python": "CPython 3.10.16",
+  "startedAt": "2025-05-31T22:42:04.256921Z",
+  "args": [
+    "--features_path",
+    "siglip_results/extracted_features.pkl",
+    "--modality",
+    "rgb",
+    "--batch_size",
+    "8",
+    "--learning_rate",
+    "1e-4",
+    "--num_epochs",
+    "50",
+    "--use_wandb"
+  ],
+  "program": "/home/emirhan/CENG562-Project/siglip_rgb_ir/train.py",
+  "codePath": "siglip_rgb_ir/train.py",
+  "git": {
+    "remote": "https://github.com/emirhanbayar/CENG562-Project.git",
+    "commit": "d8cfd65f38c60f38330755272d4bf1daedf0cb1d"
+  },
+  "email": "bayaremirhan07@gmail.com",
+  "root": "/home/emirhan/CENG562-Project/siglip_rgb_ir",
+  "host": "emirhan",
+  "executable": "/home/emirhan/anaconda3/envs/siglip/bin/python",
+  "codePathLocal": "train.py",
+  "cpu_count": 6,
+  "cpu_count_logical": 12,
+  "gpu": "NVIDIA GeForce GTX 1650",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "501809635328",
+      "used": "328497766400"
+    }
+  },
+  "memory": {
+    "total": "16610476032"
+  },
+  "cpu": {
+    "count": 6,
+    "countLogical": 12
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce GTX 1650",
+      "memoryTotal": "4294967296",
+      "cudaCores": 1024,
+      "architecture": "Turing"
+    }
+  ],
+  "cudaVersion": "12.4"
+}

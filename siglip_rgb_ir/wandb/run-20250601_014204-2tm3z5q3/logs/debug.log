@@ -1,0 +1,23 @@
+2025-06-01 01:42:04,253 INFO    MainThread:50222 [wandb_setup.py:_flush():70] Current SDK version is 0.19.11
+2025-06-01 01:42:04,253 INFO    MainThread:50222 [wandb_setup.py:_flush():70] Configure stats pid to 50222
+2025-06-01 01:42:04,253 INFO    MainThread:50222 [wandb_setup.py:_flush():70] Loading settings from /home/emirhan/.config/wandb/settings
+2025-06-01 01:42:04,253 INFO    MainThread:50222 [wandb_setup.py:_flush():70] Loading settings from /home/emirhan/CENG562-Project/siglip_rgb_ir/wandb/settings
+2025-06-01 01:42:04,253 INFO    MainThread:50222 [wandb_setup.py:_flush():70] Loading settings from environment variables
+2025-06-01 01:42:04,253 INFO    MainThread:50222 [wandb_init.py:setup_run_log_directory():724] Logging user logs to /home/emirhan/CENG562-Project/siglip_rgb_ir/wandb/run-20250601_014204-2tm3z5q3/logs/debug.log
+2025-06-01 01:42:04,253 INFO    MainThread:50222 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to /home/emirhan/CENG562-Project/siglip_rgb_ir/wandb/run-20250601_014204-2tm3z5q3/logs/debug-internal.log
+2025-06-01 01:42:04,253 INFO    MainThread:50222 [wandb_init.py:init():852] calling init triggers
+2025-06-01 01:42:04,253 INFO    MainThread:50222 [wandb_init.py:init():857] wandb.init called with sweep_config: {}
+config: {'features_path': 'siglip_results/extracted_features.pkl', 'ir_train_annotations': '/home/emirhan/datasets/object_detection/FLIR_ADAS_IR/annotations/instances_train2017.json', 'ir_val_annotations': '/home/emirhan/datasets/object_detection/FLIR_ADAS_IR/annotations/instances_val2017.json', 'modality': 'rgb', 'base_hidden_size': 768, 'num_classes': 3, 'num_patches': 256, 'batch_size': 8, 'learning_rate': 0.0001, 'num_epochs': 50, 'device': 'cuda', 'output_dir': 'detection_results', 'bbox_loss_coef': 5.0, 'giou_loss_coef': 2.0, 'class_loss_coef': 1.0, 'use_wandb': True, 'log_interval': 10, 'save_interval': 5, '_wandb': {}}
+2025-06-01 01:42:04,253 INFO    MainThread:50222 [wandb_init.py:init():893] starting backend
+2025-06-01 01:42:04,253 INFO    MainThread:50222 [wandb_init.py:init():897] sending inform_init request
+2025-06-01 01:42:04,256 INFO    MainThread:50222 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-06-01 01:42:04,256 INFO    MainThread:50222 [wandb_init.py:init():907] backend started and connected
+2025-06-01 01:42:04,257 INFO    MainThread:50222 [wandb_init.py:init():1005] updated telemetry
+2025-06-01 01:42:04,261 INFO    MainThread:50222 [wandb_init.py:init():1029] communicating run to backend with 90.0 second timeout
+2025-06-01 01:42:04,951 INFO    MainThread:50222 [wandb_init.py:init():1104] starting run threads in backend
+2025-06-01 01:42:05,031 INFO    MainThread:50222 [wandb_run.py:_console_start():2573] atexit reg
+2025-06-01 01:42:05,032 INFO    MainThread:50222 [wandb_run.py:_redirect():2421] redirect: wrap_raw
+2025-06-01 01:42:05,032 INFO    MainThread:50222 [wandb_run.py:_redirect():2490] Wrapping output streams.
+2025-06-01 01:42:05,032 INFO    MainThread:50222 [wandb_run.py:_redirect():2513] Redirects installed.
+2025-06-01 01:42:05,033 INFO    MainThread:50222 [wandb_init.py:init():1150] run started, returning control to user process
+2025-06-01 01:42:05,073 INFO    MsgRouterThr:50222 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 2 handles.

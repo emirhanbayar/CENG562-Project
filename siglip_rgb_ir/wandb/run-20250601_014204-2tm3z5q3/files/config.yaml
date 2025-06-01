@@ -1,0 +1,62 @@
+_wandb:
+    value:
+        cli_version: 0.19.11
+        m: []
+        python_version: 3.10.16
+        t:
+            "1":
+                - 1
+                - 51
+                - 55
+            "2":
+                - 1
+                - 51
+                - 55
+            "3":
+                - 13
+                - 15
+                - 16
+                - 23
+                - 55
+            "4": 3.10.16
+            "5": 0.19.11
+            "8":
+                - 5
+            "12": 0.19.11
+            "13": linux-x86_64
+base_hidden_size:
+    value: 768
+batch_size:
+    value: 8
+bbox_loss_coef:
+    value: 5
+class_loss_coef:
+    value: 1
+device:
+    value: cuda
+features_path:
+    value: siglip_results/extracted_features.pkl
+giou_loss_coef:
+    value: 2
+ir_train_annotations:
+    value: /home/emirhan/datasets/object_detection/FLIR_ADAS_IR/annotations/instances_train2017.json
+ir_val_annotations:
+    value: /home/emirhan/datasets/object_detection/FLIR_ADAS_IR/annotations/instances_val2017.json
+learning_rate:
+    value: 0.0001
+log_interval:
+    value: 10
+modality:
+    value: rgb
+num_classes:
+    value: 3
+num_epochs:
+    value: 50
+num_patches:
+    value: 256
+output_dir:
+    value: detection_results
+save_interval:
+    value: 5
+use_wandb:
+    value: true

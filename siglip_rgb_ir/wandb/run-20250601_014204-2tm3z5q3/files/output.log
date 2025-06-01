@@ -1,0 +1,13 @@
+Loading features from siglip_results/extracted_features.pkl
+
+ERROR: Patch embeddings not found in the features file!
+Available keys: ['rgb_features', 'ir_features', 'metadata', 'model_name']
+
+Please extract features with patch embeddings first:
+python main.py --mode extract_features --extract_patch_embeddings
+Traceback (most recent call last):
+  File "/home/emirhan/CENG562-Project/siglip_rgb_ir/train.py", line 745, in <module>
+    main()
+  File "/home/emirhan/CENG562-Project/siglip_rgb_ir/train.py", line 619, in main
+    raise ValueError("Patch embeddings not found. Make sure to extract features with --extract_patch_embeddings flag")
+ValueError: Patch embeddings not found. Make sure to extract features with --extract_patch_embeddings flag
